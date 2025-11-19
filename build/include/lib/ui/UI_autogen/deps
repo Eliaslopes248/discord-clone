@@ -1,0 +1,5 @@
+UI_autogen/timestamp: \
+	/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui/CMakeLists.txt \
+	/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui/MainWindow.h \
+	/Users/eliaslopes/REPOS/discord-clone/client/src/lib/MainWindow.cpp \
+	/opt/homebrew/bin/cmake

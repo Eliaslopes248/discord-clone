@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"include/lib/ui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "UI_autogen_timestamp_deps::@b4de958cd2b8428aceca",
+	"isGeneratorProvided" : true,
+	"name" : "UI_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "include/lib/ui",
+		"source" : "include/lib/ui"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

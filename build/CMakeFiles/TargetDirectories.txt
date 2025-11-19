@@ -1,0 +1,8 @@
+/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles/app.dir
+/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles/edit_cache.dir
+/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles/rebuild_cache.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/CMakeFiles/UI.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/CMakeFiles/edit_cache.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/CMakeFiles/rebuild_cache.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/CMakeFiles/UI_autogen_timestamp_deps.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/CMakeFiles/UI_autogen.dir

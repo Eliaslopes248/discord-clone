@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/eliaslopes/REPOS/discord-clone/build/cmake_install.cmake",
+		"/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

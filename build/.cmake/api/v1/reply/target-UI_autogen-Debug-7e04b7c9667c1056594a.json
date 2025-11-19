@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"include/lib/ui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "UI_autogen_timestamp_deps::@b4de958cd2b8428aceca"
+		}
+	],
+	"id" : "UI_autogen::@b4de958cd2b8428aceca",
+	"isGeneratorProvided" : true,
+	"name" : "UI_autogen",
+	"paths" : 
+	{
+		"build" : "include/lib/ui",
+		"source" : "include/lib/ui"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/CMakeFiles/UI_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/CMakeFiles/UI_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/UI_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
