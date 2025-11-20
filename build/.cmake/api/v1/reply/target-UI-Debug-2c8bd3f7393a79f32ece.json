@@ -33,13 +33,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 24,
+				"line" : 25,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 13,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -136,7 +136,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2
+				3
 			]
 		}
 	],
@@ -165,28 +165,29 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2
+				3
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1
+				1,
+				2
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				3
+				4
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				4
+				5
 			]
 		}
 	],
@@ -198,6 +199,11 @@
 			"isGenerated" : true,
 			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/UI_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/lib/ui/Dimensions.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,

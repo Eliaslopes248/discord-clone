@@ -1,8 +1,6 @@
 CMakeFiles/app.dir/src/main.cpp.o: \
   /Users/eliaslopes/REPOS/discord-clone/client/src/main.cpp \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qnamespace.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qglobal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -682,14 +680,6 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtresource.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qttranslation.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qversiontagging.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtgui-config.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtguiexports.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qobjectdefs.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qnamespace.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcompare.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstdlibdetection.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcomparehelpers.h \
@@ -847,23 +837,33 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtmetamacros.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpalette.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtgui-config.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtguiexports.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qobjectdefs.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qfunctionaltools_impl.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qobject.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstring.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qchar.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringview.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qbytearray.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qrefcount.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qarraydata.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qpair.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qcolor.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qrgb.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringlist.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qlist.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qarraydatapointer.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qarraydataops.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qarraydata.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qpair.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcontainertools_impl.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qxptype_traits.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20functional.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20memory.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q17memory.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qhashfunctions.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstring.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qchar.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringview.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qbytearray.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qrefcount.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qbytearrayalgorithms.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qbytearrayview.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringfwd.h \
@@ -876,8 +876,6 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringbuilder.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringconverter.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringconverter_base.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qlist.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qhashfunctions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
@@ -896,13 +894,39 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qiterator.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qbytearraylist.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringlist.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qalgorithms.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringmatcher.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qrgba64.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qbrush.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qpoint.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcheckedint_impl.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q23utility.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20utility.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qscopedpointer.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmetatype.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qimage.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpaintdevice.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qrect.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmargins.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qsize.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpixelformat.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtransform.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpolygon.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qregion.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdatastream.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qiodevicebase.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qspan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20iterator.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qline.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpixmap.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qshareddata.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qobject.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmetatype.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qfloat16.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmath.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtformat_impl.h \
@@ -919,31 +943,9 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmargins.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcheckedint_impl.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q23utility.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20utility.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qaction.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qkeysequence.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qicon.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qsize.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpixmap.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpaintdevice.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qrect.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qpoint.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qcolor.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qrgb.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qrgba64.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qshareddata.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qimage.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpixelformat.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtransform.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpolygon.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qregion.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qspan.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20iterator.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qline.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qvariant.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdebug.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtextstream.h \
@@ -958,8 +960,6 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qhash.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qalloc.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpalette.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qbrush.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qfont.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qendian.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qfontmetrics.h \

@@ -15,6 +15,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui/Dimensions.h",
+			"Mu",
+			"EWIEGA46WW/moc_Dimensions.cpp",
+			null
+		],
+		[
 			"/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui/MainWindow.h",
 			"Mu",
 			"EWIEGA46WW/moc_MainWindow.cpp",
