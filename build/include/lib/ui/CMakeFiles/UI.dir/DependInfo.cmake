@@ -9,7 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/UI_autogen/mocs_compilation.cpp" "include/lib/ui/CMakeFiles/UI.dir/UI_autogen/mocs_compilation.cpp.o" "gcc" "include/lib/ui/CMakeFiles/UI.dir/UI_autogen/mocs_compilation.cpp.o.d"
-  "/Users/eliaslopes/REPOS/discord-clone/client/src/lib/MainWindow.cpp" "include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o" "gcc" "include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o.d"
+  "/Users/eliaslopes/REPOS/discord-clone/client/src/lib/pages/MainWindow.cpp" "include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o" "gcc" "include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o.d"
+  "/Users/eliaslopes/REPOS/discord-clone/client/src/lib/qss/GlobalQSS.cpp" "include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o" "gcc" "include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

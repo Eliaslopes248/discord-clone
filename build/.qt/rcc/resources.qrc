@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="resources.qrc">/Users/eliaslopes/REPOS/discord-clone/client/resources.qrc</file>
+  </qresource>
+</RCC>
+

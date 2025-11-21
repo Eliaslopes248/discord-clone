@@ -175,6 +175,84 @@ UI_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI_autogen.dir/build.make include/lib/ui/CMakeFiles/UI_autogen.dir/build
 .PHONY : UI_autogen/fast
 
+#=============================================================================
+# Target rules for targets named PAGES
+
+# Build rule for target.
+PAGES: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAGES
+.PHONY : PAGES
+
+# fast build rule for target.
+PAGES/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/pages/CMakeFiles/PAGES.dir/build.make include/lib/pages/CMakeFiles/PAGES.dir/build
+.PHONY : PAGES/fast
+
+#=============================================================================
+# Target rules for targets named PAGES_autogen_timestamp_deps
+
+# Build rule for target.
+PAGES_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAGES_autogen_timestamp_deps
+.PHONY : PAGES_autogen_timestamp_deps
+
+# fast build rule for target.
+PAGES_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/pages/CMakeFiles/PAGES_autogen_timestamp_deps.dir/build.make include/lib/pages/CMakeFiles/PAGES_autogen_timestamp_deps.dir/build
+.PHONY : PAGES_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named PAGES_autogen
+
+# Build rule for target.
+PAGES_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAGES_autogen
+.PHONY : PAGES_autogen
+
+# fast build rule for target.
+PAGES_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/pages/CMakeFiles/PAGES_autogen.dir/build.make include/lib/pages/CMakeFiles/PAGES_autogen.dir/build
+.PHONY : PAGES_autogen/fast
+
+#=============================================================================
+# Target rules for targets named CONTROLLER
+
+# Build rule for target.
+CONTROLLER: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CONTROLLER
+.PHONY : CONTROLLER
+
+# fast build rule for target.
+CONTROLLER/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/controllers/CMakeFiles/CONTROLLER.dir/build.make include/lib/controllers/CMakeFiles/CONTROLLER.dir/build
+.PHONY : CONTROLLER/fast
+
+#=============================================================================
+# Target rules for targets named CONTROLLER_autogen_timestamp_deps
+
+# Build rule for target.
+CONTROLLER_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CONTROLLER_autogen_timestamp_deps
+.PHONY : CONTROLLER_autogen_timestamp_deps
+
+# fast build rule for target.
+CONTROLLER_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/controllers/CMakeFiles/CONTROLLER_autogen_timestamp_deps.dir/build.make include/lib/controllers/CMakeFiles/CONTROLLER_autogen_timestamp_deps.dir/build
+.PHONY : CONTROLLER_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named CONTROLLER_autogen
+
+# Build rule for target.
+CONTROLLER_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CONTROLLER_autogen
+.PHONY : CONTROLLER_autogen
+
+# fast build rule for target.
+CONTROLLER_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/build.make include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/build
+.PHONY : CONTROLLER_autogen/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -208,8 +286,14 @@ help:
 	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... CONTROLLER_autogen"
+	@echo "... CONTROLLER_autogen_timestamp_deps"
+	@echo "... PAGES_autogen"
+	@echo "... PAGES_autogen_timestamp_deps"
 	@echo "... UI_autogen"
 	@echo "... UI_autogen_timestamp_deps"
+	@echo "... CONTROLLER"
+	@echo "... PAGES"
 	@echo "... UI"
 	@echo "... app"
 	@echo "... src/main.o"

@@ -1,0 +1,93 @@
+{
+	"BUILD_DIR" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CONTROLLER_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/eliaslopes/REPOS/discord-clone/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers",
+	"CMAKE_EXECUTABLE" : "/opt/homebrew/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/eliaslopes/REPOS/discord-clone/client",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CONTROLLER_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "CONTROLLER_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers/ApplicationController.h",
+			"Mu",
+			"EWIEGA46WW/moc_ApplicationController.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CONTROLLER_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CONTROLLER_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers",
+		"/Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers",
+		"/Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework",
+		"/Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers",
+		"/Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework",
+		"/Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang",
+		"/Users/eliaslopes/Qt/6.10.0/macos/include",
+		"/Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers",
+		"/Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework",
+		"/usr/local/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/clang++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CONTROLLER_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/eliaslopes/Qt/6.10.0/macos/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 10,
+	"SETTINGS_FILE" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/eliaslopes/REPOS/discord-clone/client/src/lib/controllers/ApplicationController.cpp",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

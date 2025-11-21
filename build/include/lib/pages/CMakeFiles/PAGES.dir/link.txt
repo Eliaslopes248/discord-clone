@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPAGES.a CMakeFiles/PAGES.dir/PAGES_autogen/mocs_compilation.cpp.o CMakeFiles/PAGES.dir/__/__/__/src/lib/pages/LoginWindow.cpp.o
+/usr/bin/ranlib libPAGES.a

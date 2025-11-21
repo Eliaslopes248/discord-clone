@@ -2,7 +2,9 @@
 	"InstallScripts" : 
 	[
 		"/Users/eliaslopes/REPOS/discord-clone/build/cmake_install.cmake",
-		"/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/cmake_install.cmake"
+		"/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/cmake_install.cmake",
+		"/Users/eliaslopes/REPOS/discord-clone/build/include/lib/pages/cmake_install.cmake",
+		"/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -20,9 +20,14 @@ add_executable(${PROJECT_NAME} src/main.cpp)
 # SUBDIRECTORIES
 # =====================================
 add_subdirectory(include/lib/ui)
+add_subdirectory(include/lib/pages)
+add_subdirectory(include/lib/controllers)
 
 
 # =====================================
 # LINK LIBRARIES
 # =====================================
 target_link_libraries(app PRIVATE Qt6::Widgets)
+target_link_libraries(app PRIVATE UI)
+target_link_libraries(app PRIVATE CONTROLLER)
+target_link_libraries(app PRIVATE PAGES)

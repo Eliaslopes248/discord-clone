@@ -1,0 +1,5 @@
+CONTROLLER_autogen/timestamp: \
+	/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers/ApplicationController.h \
+	/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers/CMakeLists.txt \
+	/Users/eliaslopes/REPOS/discord-clone/client/src/lib/controllers/ApplicationController.cpp \
+	/opt/homebrew/bin/cmake

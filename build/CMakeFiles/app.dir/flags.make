@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers
+CXX_INCLUDES = -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/pages -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers
 
 CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64
 

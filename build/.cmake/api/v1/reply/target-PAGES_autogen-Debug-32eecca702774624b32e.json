@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"include/lib/pages/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "PAGES_autogen_timestamp_deps::@463472a927027c13f8d9"
+		}
+	],
+	"id" : "PAGES_autogen::@463472a927027c13f8d9",
+	"isGeneratorProvided" : true,
+	"name" : "PAGES_autogen",
+	"paths" : 
+	{
+		"build" : "include/lib/pages",
+		"source" : "include/lib/pages"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/pages/CMakeFiles/PAGES_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/pages/CMakeFiles/PAGES_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/pages/PAGES_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

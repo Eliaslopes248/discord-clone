@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"include/lib/controllers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "CONTROLLER_autogen_timestamp_deps::@f1d659a2c26c86f587dd",
+	"isGeneratorProvided" : true,
+	"name" : "CONTROLLER_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "include/lib/controllers",
+		"source" : "include/lib/controllers"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -21,6 +21,12 @@
 			null
 		],
 		[
+			"/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui/GlobalQSS.h",
+			"Mu",
+			"EWIEGA46WW/moc_GlobalQSS.cpp",
+			null
+		],
+		[
 			"/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui/MainWindow.h",
 			"Mu",
 			"EWIEGA46WW/moc_MainWindow.cpp",
@@ -89,7 +95,12 @@
 	"SOURCES" : 
 	[
 		[
-			"/Users/eliaslopes/REPOS/discord-clone/client/src/lib/MainWindow.cpp",
+			"/Users/eliaslopes/REPOS/discord-clone/client/src/lib/pages/MainWindow.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/eliaslopes/REPOS/discord-clone/client/src/lib/qss/GlobalQSS.cpp",
 			"Mu",
 			null
 		]

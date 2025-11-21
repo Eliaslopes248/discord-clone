@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCONTROLLER.a CMakeFiles/CONTROLLER.dir/CONTROLLER_autogen/mocs_compilation.cpp.o CMakeFiles/CONTROLLER.dir/__/__/__/src/lib/controllers/ApplicationController.cpp.o
+/usr/bin/ranlib libCONTROLLER.a

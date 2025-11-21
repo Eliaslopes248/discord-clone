@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"include/lib/controllers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "CONTROLLER_autogen_timestamp_deps::@f1d659a2c26c86f587dd"
+		}
+	],
+	"id" : "CONTROLLER_autogen::@f1d659a2c26c86f587dd",
+	"isGeneratorProvided" : true,
+	"name" : "CONTROLLER_autogen",
+	"paths" : 
+	{
+		"build" : "include/lib/controllers",
+		"source" : "include/lib/controllers"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CMakeFiles/CONTROLLER_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CMakeFiles/CONTROLLER_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CONTROLLER_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

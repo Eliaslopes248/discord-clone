@@ -86,33 +86,49 @@ include/lib/ui/CMakeFiles/UI.dir/UI_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UI.dir/UI_autogen/mocs_compilation.cpp.s"
 	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/UI_autogen/mocs_compilation.cpp -o CMakeFiles/UI.dir/UI_autogen/mocs_compilation.cpp.s
 
-include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o: include/lib/ui/CMakeFiles/UI.dir/flags.make
-include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o: /Users/eliaslopes/REPOS/discord-clone/client/src/lib/MainWindow.cpp
-include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o: include/lib/ui/CMakeFiles/UI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o"
-	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o -MF CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o.d -o CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/lib/MainWindow.cpp
+include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o: include/lib/ui/CMakeFiles/UI.dir/flags.make
+include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o: /Users/eliaslopes/REPOS/discord-clone/client/src/lib/pages/MainWindow.cpp
+include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o: include/lib/ui/CMakeFiles/UI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o"
+	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o -MF CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o.d -o CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/lib/pages/MainWindow.cpp
 
-include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.i"
-	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliaslopes/REPOS/discord-clone/client/src/lib/MainWindow.cpp > CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.i
+include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.i"
+	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliaslopes/REPOS/discord-clone/client/src/lib/pages/MainWindow.cpp > CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.i
 
-include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.s"
-	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliaslopes/REPOS/discord-clone/client/src/lib/MainWindow.cpp -o CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.s
+include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.s"
+	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliaslopes/REPOS/discord-clone/client/src/lib/pages/MainWindow.cpp -o CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.s
+
+include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o: include/lib/ui/CMakeFiles/UI.dir/flags.make
+include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o: /Users/eliaslopes/REPOS/discord-clone/client/src/lib/qss/GlobalQSS.cpp
+include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o: include/lib/ui/CMakeFiles/UI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o"
+	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o -MF CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o.d -o CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/lib/qss/GlobalQSS.cpp
+
+include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.i"
+	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliaslopes/REPOS/discord-clone/client/src/lib/qss/GlobalQSS.cpp > CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.i
+
+include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.s"
+	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliaslopes/REPOS/discord-clone/client/src/lib/qss/GlobalQSS.cpp -o CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.s
 
 # Object files for target UI
 UI_OBJECTS = \
 "CMakeFiles/UI.dir/UI_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o"
+"CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o" \
+"CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o"
 
 # External object files for target UI
 UI_EXTERNAL_OBJECTS =
 
 include/lib/ui/libUI.a: include/lib/ui/CMakeFiles/UI.dir/UI_autogen/mocs_compilation.cpp.o
-include/lib/ui/libUI.a: include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o
+include/lib/ui/libUI.a: include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o
+include/lib/ui/libUI.a: include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o
 include/lib/ui/libUI.a: include/lib/ui/CMakeFiles/UI.dir/build.make
 include/lib/ui/libUI.a: include/lib/ui/CMakeFiles/UI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libUI.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libUI.a"
 	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && $(CMAKE_COMMAND) -P CMakeFiles/UI.dir/cmake_clean_target.cmake
 	cd /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UI.dir/link.txt --verbose=$(VERBOSE)
 

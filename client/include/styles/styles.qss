@@ -1,0 +1,22 @@
+
+QWidget[class="LoginWindowBg"] {
+    background-color: #ebe6e6;
+}
+
+#loginform{
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 0px solid black;
+}
+
+#login_form_header{
+    color:black;
+    font-size:25px;
+    font-weight:bold;
+    font-family:arial;
+    margin-top:20px;
+}
+
+#login_form_input_widget{
+    border: 1px solid black;
+}

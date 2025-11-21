@@ -193,6 +193,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.1/CMakeSystem.cmake"
   "/Users/eliaslopes/REPOS/discord-clone/client/CMakeLists.txt"
+  "/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers/CMakeLists.txt"
+  "/Users/eliaslopes/REPOS/discord-clone/client/include/lib/pages/CMakeLists.txt"
   "/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui/CMakeLists.txt"
   "/opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -255,6 +257,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/lib/ui/CMakeFiles/UI_autogen.dir/AutogenInfo.json"
   "include/lib/ui/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/lib/pages/CMakeFiles/PAGES_autogen.dir/AutogenInfo.json"
+  "include/lib/pages/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/AutogenInfo.json"
+  "include/lib/controllers/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -263,4 +269,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "include/lib/ui/CMakeFiles/UI.dir/DependInfo.cmake"
   "include/lib/ui/CMakeFiles/UI_autogen_timestamp_deps.dir/DependInfo.cmake"
   "include/lib/ui/CMakeFiles/UI_autogen.dir/DependInfo.cmake"
+  "include/lib/pages/CMakeFiles/PAGES.dir/DependInfo.cmake"
+  "include/lib/pages/CMakeFiles/PAGES_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "include/lib/pages/CMakeFiles/PAGES_autogen.dir/DependInfo.cmake"
+  "include/lib/controllers/CMakeFiles/CONTROLLER.dir/DependInfo.cmake"
+  "include/lib/controllers/CMakeFiles/CONTROLLER_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/DependInfo.cmake"
   )

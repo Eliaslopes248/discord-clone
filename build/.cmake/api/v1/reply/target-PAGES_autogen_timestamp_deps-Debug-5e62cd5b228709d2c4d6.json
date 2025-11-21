@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"include/lib/pages/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "PAGES_autogen_timestamp_deps::@463472a927027c13f8d9",
+	"isGeneratorProvided" : true,
+	"name" : "PAGES_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "include/lib/pages",
+		"source" : "include/lib/pages"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

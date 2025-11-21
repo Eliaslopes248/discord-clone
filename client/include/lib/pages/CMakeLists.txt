@@ -4,6 +4,8 @@
 add_library(
     PAGES 
     STATIC
+    LoginWindow.h
+    ../../../src/lib/pages/LoginWindow.cpp
 )
 
 # ============================================

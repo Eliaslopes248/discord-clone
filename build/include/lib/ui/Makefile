@@ -189,29 +189,53 @@ UI_autogen/mocs_compilation.cpp.s:
 	cd /Users/eliaslopes/REPOS/discord-clone/build && $(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/UI_autogen/mocs_compilation.cpp.s
 .PHONY : UI_autogen/mocs_compilation.cpp.s
 
-__/__/__/src/lib/MainWindow.o: __/__/__/src/lib/MainWindow.cpp.o
-.PHONY : __/__/__/src/lib/MainWindow.o
+__/__/__/src/lib/pages/MainWindow.o: __/__/__/src/lib/pages/MainWindow.cpp.o
+.PHONY : __/__/__/src/lib/pages/MainWindow.o
 
 # target to build an object file
-__/__/__/src/lib/MainWindow.cpp.o:
-	cd /Users/eliaslopes/REPOS/discord-clone/build && $(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o
-.PHONY : __/__/__/src/lib/MainWindow.cpp.o
+__/__/__/src/lib/pages/MainWindow.cpp.o:
+	cd /Users/eliaslopes/REPOS/discord-clone/build && $(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o
+.PHONY : __/__/__/src/lib/pages/MainWindow.cpp.o
 
-__/__/__/src/lib/MainWindow.i: __/__/__/src/lib/MainWindow.cpp.i
-.PHONY : __/__/__/src/lib/MainWindow.i
+__/__/__/src/lib/pages/MainWindow.i: __/__/__/src/lib/pages/MainWindow.cpp.i
+.PHONY : __/__/__/src/lib/pages/MainWindow.i
 
 # target to preprocess a source file
-__/__/__/src/lib/MainWindow.cpp.i:
-	cd /Users/eliaslopes/REPOS/discord-clone/build && $(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.i
-.PHONY : __/__/__/src/lib/MainWindow.cpp.i
+__/__/__/src/lib/pages/MainWindow.cpp.i:
+	cd /Users/eliaslopes/REPOS/discord-clone/build && $(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.i
+.PHONY : __/__/__/src/lib/pages/MainWindow.cpp.i
 
-__/__/__/src/lib/MainWindow.s: __/__/__/src/lib/MainWindow.cpp.s
-.PHONY : __/__/__/src/lib/MainWindow.s
+__/__/__/src/lib/pages/MainWindow.s: __/__/__/src/lib/pages/MainWindow.cpp.s
+.PHONY : __/__/__/src/lib/pages/MainWindow.s
 
 # target to generate assembly for a file
-__/__/__/src/lib/MainWindow.cpp.s:
-	cd /Users/eliaslopes/REPOS/discord-clone/build && $(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.s
-.PHONY : __/__/__/src/lib/MainWindow.cpp.s
+__/__/__/src/lib/pages/MainWindow.cpp.s:
+	cd /Users/eliaslopes/REPOS/discord-clone/build && $(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.s
+.PHONY : __/__/__/src/lib/pages/MainWindow.cpp.s
+
+__/__/__/src/lib/qss/GlobalQSS.o: __/__/__/src/lib/qss/GlobalQSS.cpp.o
+.PHONY : __/__/__/src/lib/qss/GlobalQSS.o
+
+# target to build an object file
+__/__/__/src/lib/qss/GlobalQSS.cpp.o:
+	cd /Users/eliaslopes/REPOS/discord-clone/build && $(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o
+.PHONY : __/__/__/src/lib/qss/GlobalQSS.cpp.o
+
+__/__/__/src/lib/qss/GlobalQSS.i: __/__/__/src/lib/qss/GlobalQSS.cpp.i
+.PHONY : __/__/__/src/lib/qss/GlobalQSS.i
+
+# target to preprocess a source file
+__/__/__/src/lib/qss/GlobalQSS.cpp.i:
+	cd /Users/eliaslopes/REPOS/discord-clone/build && $(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.i
+.PHONY : __/__/__/src/lib/qss/GlobalQSS.cpp.i
+
+__/__/__/src/lib/qss/GlobalQSS.s: __/__/__/src/lib/qss/GlobalQSS.cpp.s
+.PHONY : __/__/__/src/lib/qss/GlobalQSS.s
+
+# target to generate assembly for a file
+__/__/__/src/lib/qss/GlobalQSS.cpp.s:
+	cd /Users/eliaslopes/REPOS/discord-clone/build && $(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.s
+.PHONY : __/__/__/src/lib/qss/GlobalQSS.cpp.s
 
 # Help Target
 help:
@@ -228,9 +252,12 @@ help:
 	@echo "... UI_autogen/mocs_compilation.o"
 	@echo "... UI_autogen/mocs_compilation.i"
 	@echo "... UI_autogen/mocs_compilation.s"
-	@echo "... __/__/__/src/lib/MainWindow.o"
-	@echo "... __/__/__/src/lib/MainWindow.i"
-	@echo "... __/__/__/src/lib/MainWindow.s"
+	@echo "... __/__/__/src/lib/pages/MainWindow.o"
+	@echo "... __/__/__/src/lib/pages/MainWindow.i"
+	@echo "... __/__/__/src/lib/pages/MainWindow.s"
+	@echo "... __/__/__/src/lib/qss/GlobalQSS.o"
+	@echo "... __/__/__/src/lib/qss/GlobalQSS.i"
+	@echo "... __/__/__/src/lib/qss/GlobalQSS.s"
 .PHONY : help
 
 

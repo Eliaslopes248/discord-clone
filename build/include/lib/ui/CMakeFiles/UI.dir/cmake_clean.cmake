@@ -4,8 +4,10 @@ file(REMOVE_RECURSE
   "UI_autogen"
   "CMakeFiles/UI.dir/UI_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/UI.dir/UI_autogen/mocs_compilation.cpp.o.d"
-  "CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o"
-  "CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o.d"
+  "CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o"
+  "CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o.d"
+  "CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o"
+  "CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o.d"
   "libUI.a"
   "libUI.pdb"
 )

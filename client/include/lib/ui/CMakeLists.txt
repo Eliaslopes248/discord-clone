@@ -5,7 +5,9 @@ add_library(UI
     STATIC
     Dimensions.h
     MainWindow.h
-    ../../../src/lib/MainWindow.cpp
+    GlobalQSS.h
+    ../../../src/lib/pages/MainWindow.cpp
+    ../../../src/lib/qss/GlobalQSS.cpp
 )
 
 # ============================================

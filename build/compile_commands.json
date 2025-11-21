@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/eliaslopes/REPOS/discord-clone/build",
-  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/main.cpp",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/pages -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/main.cpp",
   "file": "/Users/eliaslopes/REPOS/discord-clone/client/src/main.cpp",
   "output": "CMakeFiles/app.dir/src/main.cpp.o"
 },
@@ -13,8 +13,38 @@
 },
 {
   "directory": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui",
-  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/UI_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/lib/MainWindow.cpp",
-  "file": "/Users/eliaslopes/REPOS/discord-clone/client/src/lib/MainWindow.cpp",
-  "output": "include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/MainWindow.cpp.o"
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/UI_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/lib/pages/MainWindow.cpp",
+  "file": "/Users/eliaslopes/REPOS/discord-clone/client/src/lib/pages/MainWindow.cpp",
+  "output": "include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/pages/MainWindow.cpp.o"
+},
+{
+  "directory": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/UI_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/lib/qss/GlobalQSS.cpp",
+  "file": "/Users/eliaslopes/REPOS/discord-clone/client/src/lib/qss/GlobalQSS.cpp",
+  "output": "include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o"
+},
+{
+  "directory": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/pages",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/pages -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/pages/PAGES_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/PAGES.dir/PAGES_autogen/mocs_compilation.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/build/include/lib/pages/PAGES_autogen/mocs_compilation.cpp",
+  "file": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/pages/PAGES_autogen/mocs_compilation.cpp",
+  "output": "include/lib/pages/CMakeFiles/PAGES.dir/PAGES_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/pages",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/pages -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/pages/PAGES_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/PAGES.dir/__/__/__/src/lib/pages/LoginWindow.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/lib/pages/LoginWindow.cpp",
+  "file": "/Users/eliaslopes/REPOS/discord-clone/client/src/lib/pages/LoginWindow.cpp",
+  "output": "include/lib/pages/CMakeFiles/PAGES.dir/__/__/__/src/lib/pages/LoginWindow.cpp.o"
+},
+{
+  "directory": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CONTROLLER_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/CONTROLLER.dir/CONTROLLER_autogen/mocs_compilation.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CONTROLLER_autogen/mocs_compilation.cpp",
+  "file": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CONTROLLER_autogen/mocs_compilation.cpp",
+  "output": "include/lib/controllers/CMakeFiles/CONTROLLER.dir/CONTROLLER_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CONTROLLER_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/CONTROLLER.dir/__/__/__/src/lib/controllers/ApplicationController.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/lib/controllers/ApplicationController.cpp",
+  "file": "/Users/eliaslopes/REPOS/discord-clone/client/src/lib/controllers/ApplicationController.cpp",
+  "output": "include/lib/controllers/CMakeFiles/CONTROLLER.dir/__/__/__/src/lib/controllers/ApplicationController.cpp.o"
 }
 ]

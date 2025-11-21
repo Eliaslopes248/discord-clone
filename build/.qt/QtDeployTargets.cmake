@@ -1,4 +1,8 @@
 set(__QT_DEPLOY_TARGET_UI_FILE /Users/eliaslopes/REPOS/discord-clone/build/include/lib/ui/libUI.a)
 set(__QT_DEPLOY_TARGET_UI_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_PAGES_FILE /Users/eliaslopes/REPOS/discord-clone/build/include/lib/pages/libPAGES.a)
+set(__QT_DEPLOY_TARGET_PAGES_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_CONTROLLER_FILE /Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/libCONTROLLER.a)
+set(__QT_DEPLOY_TARGET_CONTROLLER_TYPE STATIC_LIBRARY)
 set(__QT_DEPLOY_TARGET_app_FILE /Users/eliaslopes/REPOS/discord-clone/build/app)
 set(__QT_DEPLOY_TARGET_app_TYPE EXECUTABLE)
