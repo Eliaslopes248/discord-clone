@@ -950,4 +950,62 @@ include/lib/ui/CMakeFiles/UI.dir/__/__/__/src/lib/qss/GlobalQSS.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/QColor \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qcolor.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtgui-config.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtguiexports.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qrgb.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qrgba64.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QGraphicsDropShadowEffect \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qgraphicseffect.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qpoint.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcheckedint_impl.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q23utility.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20utility.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qrect.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmargins.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qsize.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qbrush.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qimage.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpaintdevice.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpixelformat.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtransform.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpolygon.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qregion.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qline.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpixmap.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qshareddata.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qaction.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qkeysequence.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qicon.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qvariant.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdebug.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtextstream.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcontiguouscache.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qsharedpointer.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qsharedpointer_impl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmap.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qshareddata_impl.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qset.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qhash.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qalloc.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpalette.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qfont.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qendian.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qfontmetrics.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qfontinfo.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qfontvariableaxis.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qcursor.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qbitmap.h

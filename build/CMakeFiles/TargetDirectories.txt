@@ -16,3 +16,13 @@
 /Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CMakeFiles/rebuild_cache.dir
 /Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CMakeFiles/CONTROLLER_autogen_timestamp_deps.dir
 /Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/secrets/CMakeFiles/SECRETS.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/secrets/CMakeFiles/edit_cache.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/secrets/CMakeFiles/rebuild_cache.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/secrets/CMakeFiles/SECRETS_autogen.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/CMakeFiles/API.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/CMakeFiles/edit_cache.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/CMakeFiles/rebuild_cache.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir
+/Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/CMakeFiles/API_autogen.dir

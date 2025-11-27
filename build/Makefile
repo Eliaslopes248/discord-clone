@@ -253,6 +253,84 @@ CONTROLLER_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/build.make include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/build
 .PHONY : CONTROLLER_autogen/fast
 
+#=============================================================================
+# Target rules for targets named SECRETS
+
+# Build rule for target.
+SECRETS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SECRETS
+.PHONY : SECRETS
+
+# fast build rule for target.
+SECRETS/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS.dir/build.make include/lib/secrets/CMakeFiles/SECRETS.dir/build
+.PHONY : SECRETS/fast
+
+#=============================================================================
+# Target rules for targets named SECRETS_autogen_timestamp_deps
+
+# Build rule for target.
+SECRETS_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SECRETS_autogen_timestamp_deps
+.PHONY : SECRETS_autogen_timestamp_deps
+
+# fast build rule for target.
+SECRETS_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/build.make include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/build
+.PHONY : SECRETS_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named SECRETS_autogen
+
+# Build rule for target.
+SECRETS_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SECRETS_autogen
+.PHONY : SECRETS_autogen
+
+# fast build rule for target.
+SECRETS_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/build.make include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/build
+.PHONY : SECRETS_autogen/fast
+
+#=============================================================================
+# Target rules for targets named API
+
+# Build rule for target.
+API: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 API
+.PHONY : API
+
+# fast build rule for target.
+API/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API.dir/build.make include/lib/api/CMakeFiles/API.dir/build
+.PHONY : API/fast
+
+#=============================================================================
+# Target rules for targets named API_autogen_timestamp_deps
+
+# Build rule for target.
+API_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 API_autogen_timestamp_deps
+.PHONY : API_autogen_timestamp_deps
+
+# fast build rule for target.
+API_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/build.make include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/build
+.PHONY : API_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named API_autogen
+
+# Build rule for target.
+API_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 API_autogen
+.PHONY : API_autogen
+
+# fast build rule for target.
+API_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API_autogen.dir/build.make include/lib/api/CMakeFiles/API_autogen.dir/build
+.PHONY : API_autogen/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -286,14 +364,20 @@ help:
 	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... API_autogen"
+	@echo "... API_autogen_timestamp_deps"
 	@echo "... CONTROLLER_autogen"
 	@echo "... CONTROLLER_autogen_timestamp_deps"
 	@echo "... PAGES_autogen"
 	@echo "... PAGES_autogen_timestamp_deps"
+	@echo "... SECRETS_autogen"
+	@echo "... SECRETS_autogen_timestamp_deps"
 	@echo "... UI_autogen"
 	@echo "... UI_autogen_timestamp_deps"
+	@echo "... API"
 	@echo "... CONTROLLER"
 	@echo "... PAGES"
+	@echo "... SECRETS"
 	@echo "... UI"
 	@echo "... app"
 	@echo "... src/main.o"

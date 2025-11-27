@@ -67,6 +67,8 @@ all: CMakeFiles/app.dir/all
 all: include/lib/ui/all
 all: include/lib/pages/all
 all: include/lib/controllers/all
+all: include/lib/secrets/all
+all: include/lib/api/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -74,12 +76,16 @@ codegen: CMakeFiles/app.dir/codegen
 codegen: include/lib/ui/codegen
 codegen: include/lib/pages/codegen
 codegen: include/lib/controllers/codegen
+codegen: include/lib/secrets/codegen
+codegen: include/lib/api/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: include/lib/ui/preinstall
 preinstall: include/lib/pages/preinstall
 preinstall: include/lib/controllers/preinstall
+preinstall: include/lib/secrets/preinstall
+preinstall: include/lib/api/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -87,7 +93,30 @@ clean: CMakeFiles/app.dir/clean
 clean: include/lib/ui/clean
 clean: include/lib/pages/clean
 clean: include/lib/controllers/clean
+clean: include/lib/secrets/clean
+clean: include/lib/api/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory include/lib/api
+
+# Recursive "all" directory target.
+include/lib/api/all: include/lib/api/CMakeFiles/API.dir/all
+.PHONY : include/lib/api/all
+
+# Recursive "codegen" directory target.
+include/lib/api/codegen: include/lib/api/CMakeFiles/API.dir/codegen
+.PHONY : include/lib/api/codegen
+
+# Recursive "preinstall" directory target.
+include/lib/api/preinstall:
+.PHONY : include/lib/api/preinstall
+
+# Recursive "clean" directory target.
+include/lib/api/clean: include/lib/api/CMakeFiles/API.dir/clean
+include/lib/api/clean: include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/clean
+include/lib/api/clean: include/lib/api/CMakeFiles/API_autogen.dir/clean
+.PHONY : include/lib/api/clean
 
 #=============================================================================
 # Directory level rules for directory include/lib/controllers
@@ -132,6 +161,27 @@ include/lib/pages/clean: include/lib/pages/CMakeFiles/PAGES_autogen.dir/clean
 .PHONY : include/lib/pages/clean
 
 #=============================================================================
+# Directory level rules for directory include/lib/secrets
+
+# Recursive "all" directory target.
+include/lib/secrets/all: include/lib/secrets/CMakeFiles/SECRETS.dir/all
+.PHONY : include/lib/secrets/all
+
+# Recursive "codegen" directory target.
+include/lib/secrets/codegen: include/lib/secrets/CMakeFiles/SECRETS.dir/codegen
+.PHONY : include/lib/secrets/codegen
+
+# Recursive "preinstall" directory target.
+include/lib/secrets/preinstall:
+.PHONY : include/lib/secrets/preinstall
+
+# Recursive "clean" directory target.
+include/lib/secrets/clean: include/lib/secrets/CMakeFiles/SECRETS.dir/clean
+include/lib/secrets/clean: include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/clean
+include/lib/secrets/clean: include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/clean
+.PHONY : include/lib/secrets/clean
+
+#=============================================================================
 # Directory level rules for directory include/lib/ui
 
 # Recursive "all" directory target.
@@ -159,14 +209,16 @@ include/lib/ui/clean: include/lib/ui/CMakeFiles/UI_autogen.dir/clean
 CMakeFiles/app.dir/all: include/lib/ui/CMakeFiles/UI.dir/all
 CMakeFiles/app.dir/all: include/lib/pages/CMakeFiles/PAGES.dir/all
 CMakeFiles/app.dir/all: include/lib/controllers/CMakeFiles/CONTROLLER.dir/all
+CMakeFiles/app.dir/all: include/lib/secrets/CMakeFiles/SECRETS.dir/all
+CMakeFiles/app.dir/all: include/lib/api/CMakeFiles/API.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=14,15 "Built target app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=22,23 "Built target app"
 .PHONY : CMakeFiles/app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 0
 .PHONY : CMakeFiles/app.dir/rule
@@ -178,7 +230,7 @@ app: CMakeFiles/app.dir/rule
 # codegen rule for target.
 CMakeFiles/app.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=14,15 "Finished codegen for target app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=22,23 "Finished codegen for target app"
 .PHONY : CMakeFiles/app.dir/codegen
 
 # clean rule for target.
@@ -190,11 +242,11 @@ CMakeFiles/app.dir/clean:
 # Target rules for target include/lib/ui/CMakeFiles/UI.dir
 
 # All Build rule for target.
-include/lib/ui/CMakeFiles/UI.dir/all: include/lib/ui/CMakeFiles/UI_autogen.dir/all
 include/lib/ui/CMakeFiles/UI.dir/all: include/lib/ui/CMakeFiles/UI_autogen_timestamp_deps.dir/all
+include/lib/ui/CMakeFiles/UI.dir/all: include/lib/ui/CMakeFiles/UI_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=9,10,11,12 "Built target UI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=17,18,19,20 "Built target UI"
 .PHONY : include/lib/ui/CMakeFiles/UI.dir/all
 
 # Build rule for subdir invocation for target.
@@ -211,7 +263,7 @@ UI: include/lib/ui/CMakeFiles/UI.dir/rule
 # codegen rule for target.
 include/lib/ui/CMakeFiles/UI.dir/codegen: include/lib/ui/CMakeFiles/UI_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=9,10,11,12 "Finished codegen for target UI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=17,18,19,20 "Finished codegen for target UI"
 .PHONY : include/lib/ui/CMakeFiles/UI.dir/codegen
 
 # clean rule for target.
@@ -258,7 +310,7 @@ include/lib/ui/CMakeFiles/UI_autogen_timestamp_deps.dir/clean:
 include/lib/ui/CMakeFiles/UI_autogen.dir/all: include/lib/ui/CMakeFiles/UI_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI_autogen.dir/build.make include/lib/ui/CMakeFiles/UI_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI_autogen.dir/build.make include/lib/ui/CMakeFiles/UI_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=13 "Built target UI_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=21 "Built target UI_autogen"
 .PHONY : include/lib/ui/CMakeFiles/UI_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -275,7 +327,7 @@ UI_autogen: include/lib/ui/CMakeFiles/UI_autogen.dir/rule
 # codegen rule for target.
 include/lib/ui/CMakeFiles/UI_autogen.dir/codegen: include/lib/ui/CMakeFiles/UI_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI_autogen.dir/build.make include/lib/ui/CMakeFiles/UI_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=13 "Finished codegen for target UI_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=21 "Finished codegen for target UI_autogen"
 .PHONY : include/lib/ui/CMakeFiles/UI_autogen.dir/codegen
 
 # clean rule for target.
@@ -291,7 +343,7 @@ include/lib/pages/CMakeFiles/PAGES.dir/all: include/lib/pages/CMakeFiles/PAGES_a
 include/lib/pages/CMakeFiles/PAGES.dir/all: include/lib/pages/CMakeFiles/PAGES_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/pages/CMakeFiles/PAGES.dir/build.make include/lib/pages/CMakeFiles/PAGES.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/lib/pages/CMakeFiles/PAGES.dir/build.make include/lib/pages/CMakeFiles/PAGES.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=5,6,7 "Built target PAGES"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=9,10,11 "Built target PAGES"
 .PHONY : include/lib/pages/CMakeFiles/PAGES.dir/all
 
 # Build rule for subdir invocation for target.
@@ -308,7 +360,7 @@ PAGES: include/lib/pages/CMakeFiles/PAGES.dir/rule
 # codegen rule for target.
 include/lib/pages/CMakeFiles/PAGES.dir/codegen: include/lib/pages/CMakeFiles/PAGES_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/pages/CMakeFiles/PAGES.dir/build.make include/lib/pages/CMakeFiles/PAGES.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=5,6,7 "Finished codegen for target PAGES"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=9,10,11 "Finished codegen for target PAGES"
 .PHONY : include/lib/pages/CMakeFiles/PAGES.dir/codegen
 
 # clean rule for target.
@@ -355,7 +407,7 @@ include/lib/pages/CMakeFiles/PAGES_autogen_timestamp_deps.dir/clean:
 include/lib/pages/CMakeFiles/PAGES_autogen.dir/all: include/lib/pages/CMakeFiles/PAGES_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/pages/CMakeFiles/PAGES_autogen.dir/build.make include/lib/pages/CMakeFiles/PAGES_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/lib/pages/CMakeFiles/PAGES_autogen.dir/build.make include/lib/pages/CMakeFiles/PAGES_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=8 "Built target PAGES_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=12 "Built target PAGES_autogen"
 .PHONY : include/lib/pages/CMakeFiles/PAGES_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -372,7 +424,7 @@ PAGES_autogen: include/lib/pages/CMakeFiles/PAGES_autogen.dir/rule
 # codegen rule for target.
 include/lib/pages/CMakeFiles/PAGES_autogen.dir/codegen: include/lib/pages/CMakeFiles/PAGES_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/pages/CMakeFiles/PAGES_autogen.dir/build.make include/lib/pages/CMakeFiles/PAGES_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=8 "Finished codegen for target PAGES_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=12 "Finished codegen for target PAGES_autogen"
 .PHONY : include/lib/pages/CMakeFiles/PAGES_autogen.dir/codegen
 
 # clean rule for target.
@@ -388,7 +440,7 @@ include/lib/controllers/CMakeFiles/CONTROLLER.dir/all: include/lib/controllers/C
 include/lib/controllers/CMakeFiles/CONTROLLER.dir/all: include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/controllers/CMakeFiles/CONTROLLER.dir/build.make include/lib/controllers/CMakeFiles/CONTROLLER.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/lib/controllers/CMakeFiles/CONTROLLER.dir/build.make include/lib/controllers/CMakeFiles/CONTROLLER.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=1,2,3 "Built target CONTROLLER"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=5,6,7 "Built target CONTROLLER"
 .PHONY : include/lib/controllers/CMakeFiles/CONTROLLER.dir/all
 
 # Build rule for subdir invocation for target.
@@ -405,7 +457,7 @@ CONTROLLER: include/lib/controllers/CMakeFiles/CONTROLLER.dir/rule
 # codegen rule for target.
 include/lib/controllers/CMakeFiles/CONTROLLER.dir/codegen: include/lib/controllers/CMakeFiles/CONTROLLER_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/controllers/CMakeFiles/CONTROLLER.dir/build.make include/lib/controllers/CMakeFiles/CONTROLLER.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target CONTROLLER"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=5,6,7 "Finished codegen for target CONTROLLER"
 .PHONY : include/lib/controllers/CMakeFiles/CONTROLLER.dir/codegen
 
 # clean rule for target.
@@ -452,7 +504,7 @@ include/lib/controllers/CMakeFiles/CONTROLLER_autogen_timestamp_deps.dir/clean:
 include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/all: include/lib/controllers/CMakeFiles/CONTROLLER_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/build.make include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/build.make include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=4 "Built target CONTROLLER_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=8 "Built target CONTROLLER_autogen"
 .PHONY : include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -469,13 +521,207 @@ CONTROLLER_autogen: include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/ru
 # codegen rule for target.
 include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/codegen: include/lib/controllers/CMakeFiles/CONTROLLER_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/build.make include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=4 "Finished codegen for target CONTROLLER_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=8 "Finished codegen for target CONTROLLER_autogen"
 .PHONY : include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/codegen
 
 # clean rule for target.
 include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/clean:
 	$(MAKE) $(MAKESILENT) -f include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/build.make include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/clean
 .PHONY : include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target include/lib/secrets/CMakeFiles/SECRETS.dir
+
+# All Build rule for target.
+include/lib/secrets/CMakeFiles/SECRETS.dir/all: include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/all
+include/lib/secrets/CMakeFiles/SECRETS.dir/all: include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS.dir/build.make include/lib/secrets/CMakeFiles/SECRETS.dir/depend
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS.dir/build.make include/lib/secrets/CMakeFiles/SECRETS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=13,14,15 "Built target SECRETS"
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS.dir/all
+
+# Build rule for subdir invocation for target.
+include/lib/secrets/CMakeFiles/SECRETS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/lib/secrets/CMakeFiles/SECRETS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 0
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS.dir/rule
+
+# Convenience name for target.
+SECRETS: include/lib/secrets/CMakeFiles/SECRETS.dir/rule
+.PHONY : SECRETS
+
+# codegen rule for target.
+include/lib/secrets/CMakeFiles/SECRETS.dir/codegen: include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS.dir/build.make include/lib/secrets/CMakeFiles/SECRETS.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=13,14,15 "Finished codegen for target SECRETS"
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS.dir/codegen
+
+# clean rule for target.
+include/lib/secrets/CMakeFiles/SECRETS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS.dir/build.make include/lib/secrets/CMakeFiles/SECRETS.dir/clean
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS.dir/clean
+
+#=============================================================================
+# Target rules for target include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/build.make include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/build.make include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num= "Built target SECRETS_autogen_timestamp_deps"
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 0
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+SECRETS_autogen_timestamp_deps: include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/rule
+.PHONY : SECRETS_autogen_timestamp_deps
+
+# codegen rule for target.
+include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/build.make include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num= "Finished codegen for target SECRETS_autogen_timestamp_deps"
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/codegen
+
+# clean rule for target.
+include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/build.make include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/clean
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target include/lib/secrets/CMakeFiles/SECRETS_autogen.dir
+
+# All Build rule for target.
+include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/all: include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/build.make include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/build.make include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=16 "Built target SECRETS_autogen"
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 0
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/rule
+
+# Convenience name for target.
+SECRETS_autogen: include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/rule
+.PHONY : SECRETS_autogen
+
+# codegen rule for target.
+include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/codegen: include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/build.make include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=16 "Finished codegen for target SECRETS_autogen"
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/codegen
+
+# clean rule for target.
+include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/build.make include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/clean
+.PHONY : include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target include/lib/api/CMakeFiles/API.dir
+
+# All Build rule for target.
+include/lib/api/CMakeFiles/API.dir/all: include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/all
+include/lib/api/CMakeFiles/API.dir/all: include/lib/api/CMakeFiles/API_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API.dir/build.make include/lib/api/CMakeFiles/API.dir/depend
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API.dir/build.make include/lib/api/CMakeFiles/API.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=1,2,3 "Built target API"
+.PHONY : include/lib/api/CMakeFiles/API.dir/all
+
+# Build rule for subdir invocation for target.
+include/lib/api/CMakeFiles/API.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/lib/api/CMakeFiles/API.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 0
+.PHONY : include/lib/api/CMakeFiles/API.dir/rule
+
+# Convenience name for target.
+API: include/lib/api/CMakeFiles/API.dir/rule
+.PHONY : API
+
+# codegen rule for target.
+include/lib/api/CMakeFiles/API.dir/codegen: include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API.dir/build.make include/lib/api/CMakeFiles/API.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target API"
+.PHONY : include/lib/api/CMakeFiles/API.dir/codegen
+
+# clean rule for target.
+include/lib/api/CMakeFiles/API.dir/clean:
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API.dir/build.make include/lib/api/CMakeFiles/API.dir/clean
+.PHONY : include/lib/api/CMakeFiles/API.dir/clean
+
+#=============================================================================
+# Target rules for target include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/build.make include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/build.make include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num= "Built target API_autogen_timestamp_deps"
+.PHONY : include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 0
+.PHONY : include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+API_autogen_timestamp_deps: include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/rule
+.PHONY : API_autogen_timestamp_deps
+
+# codegen rule for target.
+include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/build.make include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num= "Finished codegen for target API_autogen_timestamp_deps"
+.PHONY : include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/codegen
+
+# clean rule for target.
+include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/build.make include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/clean
+.PHONY : include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target include/lib/api/CMakeFiles/API_autogen.dir
+
+# All Build rule for target.
+include/lib/api/CMakeFiles/API_autogen.dir/all: include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API_autogen.dir/build.make include/lib/api/CMakeFiles/API_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API_autogen.dir/build.make include/lib/api/CMakeFiles/API_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=4 "Built target API_autogen"
+.PHONY : include/lib/api/CMakeFiles/API_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+include/lib/api/CMakeFiles/API_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 include/lib/api/CMakeFiles/API_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles 0
+.PHONY : include/lib/api/CMakeFiles/API_autogen.dir/rule
+
+# Convenience name for target.
+API_autogen: include/lib/api/CMakeFiles/API_autogen.dir/rule
+.PHONY : API_autogen
+
+# codegen rule for target.
+include/lib/api/CMakeFiles/API_autogen.dir/codegen: include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API_autogen.dir/build.make include/lib/api/CMakeFiles/API_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=4 "Finished codegen for target API_autogen"
+.PHONY : include/lib/api/CMakeFiles/API_autogen.dir/codegen
+
+# clean rule for target.
+include/lib/api/CMakeFiles/API_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f include/lib/api/CMakeFiles/API_autogen.dir/build.make include/lib/api/CMakeFiles/API_autogen.dir/clean
+.PHONY : include/lib/api/CMakeFiles/API_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

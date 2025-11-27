@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAPI.a CMakeFiles/API.dir/API_autogen/mocs_compilation.cpp.o CMakeFiles/API.dir/__/__/__/src/lib/api/restapi.cpp.o
+/usr/bin/ranlib libAPI.a

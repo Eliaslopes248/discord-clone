@@ -98,6 +98,10 @@ app: CMakeFiles/app.dir/build.make
 app: include/lib/ui/libUI.a
 app: include/lib/controllers/libCONTROLLER.a
 app: include/lib/pages/libPAGES.a
+app: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
+app: include/lib/secrets/libSECRETS.a
+app: include/lib/api/libAPI.a
+app: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 app: /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 app: /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/QtGui
 app: /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/QtCore

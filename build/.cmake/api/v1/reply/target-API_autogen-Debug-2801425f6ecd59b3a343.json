@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"include/lib/api/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "API_autogen_timestamp_deps::@c4d0bd4055548e8c5ec6"
+		}
+	],
+	"id" : "API_autogen::@c4d0bd4055548e8c5ec6",
+	"isGeneratorProvided" : true,
+	"name" : "API_autogen",
+	"paths" : 
+	{
+		"build" : "include/lib/api",
+		"source" : "include/lib/api"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/CMakeFiles/API_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/CMakeFiles/API_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/API_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

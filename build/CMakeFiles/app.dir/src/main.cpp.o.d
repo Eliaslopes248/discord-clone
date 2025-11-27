@@ -837,33 +837,27 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtmetamacros.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpalette.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtgui-config.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtguiexports.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qobjectdefs.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qfunctionaltools_impl.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qcolor.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qrgb.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringlist.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qlist.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qarraydatapointer.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qarraydataops.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qarraydata.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qpair.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcontainertools_impl.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qxptype_traits.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20functional.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20memory.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q17memory.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qhashfunctions.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtimer.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qbasictimer.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qabstracteventdispatcher.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qobject.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstring.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qchar.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringview.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qbytearray.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qrefcount.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qarraydata.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qpair.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qarraydatapointer.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qarraydataops.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcontainertools_impl.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qxptype_traits.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20functional.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20memory.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q17memory.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qbytearrayalgorithms.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qbytearrayview.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringfwd.h \
@@ -876,6 +870,8 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringbuilder.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringconverter.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringconverter_base.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qlist.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qhashfunctions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
@@ -894,39 +890,13 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qiterator.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qbytearraylist.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringlist.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qalgorithms.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringmatcher.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qrgba64.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qbrush.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qpoint.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcheckedint_impl.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q23utility.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20utility.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qscopedpointer.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qimage.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpaintdevice.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qrect.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmargins.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qsize.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpixelformat.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtransform.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpolygon.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qregion.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmetatype.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdatastream.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qiodevicebase.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qspan.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20iterator.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qline.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpixmap.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qshareddata.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qobject.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmetatype.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qfloat16.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmath.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtformat_impl.h \
@@ -943,6 +913,41 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qeventloop.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdeadlinetimer.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpalette.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtgui-config.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtguiexports.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qcolor.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qrgb.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qrgba64.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qbrush.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qpoint.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcheckedint_impl.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q23utility.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20utility.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qimage.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpaintdevice.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qrect.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmargins.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qsize.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpixelformat.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtransform.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpolygon.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qregion.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qspan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20iterator.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qline.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpixmap.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qshareddata.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qaction.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qkeysequence.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qicon.h \
@@ -969,13 +974,10 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qsplashscreen.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcoreevent.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qbasictimer.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qabstracteventdispatcher.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qeventloop.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdeadlinetimer.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qnativeinterface.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qguiapplication.h \
@@ -1019,4 +1021,101 @@ CMakeFiles/app.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QString \
-  /Users/eliaslopes/REPOS/discord-clone/client/src/../include/lib/controllers/ApplicationController.h
+  /Users/eliaslopes/REPOS/discord-clone/client/src/../include/lib/controllers/ApplicationController.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QSplashScreen \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QTimer \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/QPixmap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
+  /Users/eliaslopes/REPOS/discord-clone/client/src/../include/lib/secrets/secrets.h \
+  /Users/eliaslopes/REPOS/discord-clone/client/src/../include/lib/api/restapi.h \
+  /Users/eliaslopes/REPOS/discord-clone/client/src/../include/lib/api/httplib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arpa/inet.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/netinet/in.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/socket.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/constrained_ctypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_param.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_param.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/net/net_kev.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sa_family_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_socklen_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_iovec_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/netinet6/in6.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ifaddrs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/os/availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/net/if.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/net/if_var.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval64.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_select.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval32.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/netdb.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/csignal \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/netinet/tcp.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/poll.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/poll.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/mman.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/un.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/select.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fcntl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/fcntl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_o_sync.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_o_dsync.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_s_ifmt.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_filesec_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/random \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/generate_canonical.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/default_random_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/poisson_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/normal_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/independent_bits_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/knuth_b.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/lognormal_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/random_device.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/ranlux.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/seed_seq.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/regex \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stat.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/jthread.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h

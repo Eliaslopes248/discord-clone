@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/eliaslopes/REPOS/discord-clone/build",
-  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/pages -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/main.cpp",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/pages -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/secrets -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/api -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/app.dir/src/main.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/main.cpp",
   "file": "/Users/eliaslopes/REPOS/discord-clone/client/src/main.cpp",
   "output": "CMakeFiles/app.dir/src/main.cpp.o"
 },
@@ -46,5 +46,29 @@
   "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/controllers/CONTROLLER_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/CONTROLLER.dir/__/__/__/src/lib/controllers/ApplicationController.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/lib/controllers/ApplicationController.cpp",
   "file": "/Users/eliaslopes/REPOS/discord-clone/client/src/lib/controllers/ApplicationController.cpp",
   "output": "include/lib/controllers/CMakeFiles/CONTROLLER.dir/__/__/__/src/lib/controllers/ApplicationController.cpp.o"
+},
+{
+  "directory": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/secrets",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/secrets -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/secrets/SECRETS_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/SECRETS.dir/SECRETS_autogen/mocs_compilation.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/build/include/lib/secrets/SECRETS_autogen/mocs_compilation.cpp",
+  "file": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/secrets/SECRETS_autogen/mocs_compilation.cpp",
+  "output": "include/lib/secrets/CMakeFiles/SECRETS.dir/SECRETS_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/secrets",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/secrets -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/secrets/SECRETS_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/SECRETS.dir/secrets.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/include/lib/secrets/secrets.cpp",
+  "file": "/Users/eliaslopes/REPOS/discord-clone/client/include/lib/secrets/secrets.cpp",
+  "output": "include/lib/secrets/CMakeFiles/SECRETS.dir/secrets.cpp.o"
+},
+{
+  "directory": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/api",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/api -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/API_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/API.dir/API_autogen/mocs_compilation.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/API_autogen/mocs_compilation.cpp",
+  "file": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/API_autogen/mocs_compilation.cpp",
+  "output": "include/lib/api/CMakeFiles/API.dir/API_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/eliaslopes/REPOS/discord-clone/build/include/lib/api",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/eliaslopes/REPOS/discord-clone/client/include/lib/api -isystem /Users/eliaslopes/REPOS/discord-clone/build/include/lib/api/API_autogen/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -iframework /Users/eliaslopes/Qt/6.10.0/macos/lib -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers -isystem /Users/eliaslopes/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/eliaslopes/Qt/6.10.0/macos/include -isystem /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/API.dir/__/__/__/src/lib/api/restapi.cpp.o -c /Users/eliaslopes/REPOS/discord-clone/client/src/lib/api/restapi.cpp",
+  "file": "/Users/eliaslopes/REPOS/discord-clone/client/src/lib/api/restapi.cpp",
+  "output": "include/lib/api/CMakeFiles/API.dir/__/__/__/src/lib/api/restapi.cpp.o"
 }
 ]

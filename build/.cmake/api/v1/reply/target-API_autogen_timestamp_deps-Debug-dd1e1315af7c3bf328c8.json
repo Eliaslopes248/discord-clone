@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"include/lib/api/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "API_autogen_timestamp_deps::@c4d0bd4055548e8c5ec6",
+	"isGeneratorProvided" : true,
+	"name" : "API_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "include/lib/api",
+		"source" : "include/lib/api"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

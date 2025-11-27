@@ -193,8 +193,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.1/CMakeSystem.cmake"
   "/Users/eliaslopes/REPOS/discord-clone/client/CMakeLists.txt"
+  "/Users/eliaslopes/REPOS/discord-clone/client/include/lib/api/CMakeLists.txt"
   "/Users/eliaslopes/REPOS/discord-clone/client/include/lib/controllers/CMakeLists.txt"
   "/Users/eliaslopes/REPOS/discord-clone/client/include/lib/pages/CMakeLists.txt"
+  "/Users/eliaslopes/REPOS/discord-clone/client/include/lib/secrets/CMakeLists.txt"
   "/Users/eliaslopes/REPOS/discord-clone/client/include/lib/ui/CMakeLists.txt"
   "/opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -216,9 +218,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake"
   "/opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake"
+  "/opt/homebrew/share/cmake/Modules/FindCURL.cmake"
   "/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake"
   "/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake"
+  "/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake"
   "/opt/homebrew/share/cmake/Modules/FindThreads.cmake"
   "/opt/homebrew/share/cmake/Modules/GNUInstallDirs.cmake"
   "/opt/homebrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake"
@@ -242,6 +246,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake"
   "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake"
   "/opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake"
+  "/opt/homebrew/share/cmake/Modules/SelectLibraryConfigurations.cmake"
   )
 
 # The corresponding makefile is:
@@ -261,6 +266,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "include/lib/pages/CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/AutogenInfo.json"
   "include/lib/controllers/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/AutogenInfo.json"
+  "include/lib/secrets/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/lib/api/CMakeFiles/API_autogen.dir/AutogenInfo.json"
+  "include/lib/api/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -275,4 +284,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "include/lib/controllers/CMakeFiles/CONTROLLER.dir/DependInfo.cmake"
   "include/lib/controllers/CMakeFiles/CONTROLLER_autogen_timestamp_deps.dir/DependInfo.cmake"
   "include/lib/controllers/CMakeFiles/CONTROLLER_autogen.dir/DependInfo.cmake"
+  "include/lib/secrets/CMakeFiles/SECRETS.dir/DependInfo.cmake"
+  "include/lib/secrets/CMakeFiles/SECRETS_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "include/lib/secrets/CMakeFiles/SECRETS_autogen.dir/DependInfo.cmake"
+  "include/lib/api/CMakeFiles/API.dir/DependInfo.cmake"
+  "include/lib/api/CMakeFiles/API_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "include/lib/api/CMakeFiles/API_autogen.dir/DependInfo.cmake"
   )

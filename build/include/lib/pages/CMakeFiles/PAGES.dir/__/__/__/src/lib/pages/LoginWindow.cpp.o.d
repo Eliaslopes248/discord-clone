@@ -929,6 +929,8 @@ include/lib/pages/CMakeFiles/PAGES.dir/__/__/__/src/lib/pages/LoginWindow.cpp.o:
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qsize.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qpoint.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qframe.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qaction.h \
@@ -972,20 +974,21 @@ include/lib/pages/CMakeFiles/PAGES.dir/__/__/__/src/lib/pages/LoginWindow.cpp.o:
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qfontvariableaxis.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qbitmap.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLineEdit \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlineedit.h \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qframe.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextcursor.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextdocument.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qurl.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextformat.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpen.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextoption.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLineEdit \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLabel \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlabel.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpicture.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qguiapplication.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcoreevent.h \
@@ -1008,4 +1011,43 @@ include/lib/pages/CMakeFiles/PAGES.dir/__/__/__/src/lib/pages/LoginWindow.cpp.o:
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QSize \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QSizeF \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/QTransform \
-  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qscreen_platform.h
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qscreen_platform.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QSizePolicy \
+  /Users/eliaslopes/REPOS/discord-clone/client/src/lib/pages/../../../include/lib/ui/GlobalQSS.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QString \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QFile \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qfile.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qfiledevice.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream

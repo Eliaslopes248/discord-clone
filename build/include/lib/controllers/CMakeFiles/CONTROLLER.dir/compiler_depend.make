@@ -976,7 +976,9 @@ include/lib/controllers/CMakeFiles/CONTROLLER.dir/__/__/__/src/lib/controllers/A
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLabel \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLineEdit \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qframe.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
@@ -984,6 +986,7 @@ include/lib/controllers/CMakeFiles/CONTROLLER.dir/__/__/__/src/lib/controllers/A
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlayout.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
   /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
@@ -1003,6 +1006,8 @@ include/lib/controllers/CMakeFiles/CONTROLLER.dir/__/__/__/src/lib/controllers/A
 
 /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h:
 
+/Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qpushbutton.h:
+
 /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlayout.h:
 
 /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlabel.h:
@@ -1015,7 +1020,11 @@ include/lib/controllers/CMakeFiles/CONTROLLER.dir/__/__/__/src/lib/controllers/A
 
 /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h:
 
+/Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h:
+
 /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout:
+
+/Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QPushButton:
 
 /Users/eliaslopes/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLabel:
 

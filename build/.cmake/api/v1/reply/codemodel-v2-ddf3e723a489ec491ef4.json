@@ -1,0 +1,278 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "include/lib/ui",
+					"jsonFile" : "directory-include.lib.ui-Debug-a1e800ecd64abb4ae4cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include/lib/ui",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "include/lib/pages",
+					"jsonFile" : "directory-include.lib.pages-Debug-de084328320832415916.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include/lib/pages",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "include/lib/controllers",
+					"jsonFile" : "directory-include.lib.controllers-Debug-c52f0c273766291c2938.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include/lib/controllers",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "include/lib/secrets",
+					"jsonFile" : "directory-include.lib.secrets-Debug-ed2ab44c2bced9684bf0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include/lib/secrets",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "include/lib/api",
+					"jsonFile" : "directory-include.lib.api-Debug-764305fdd2916bd74413.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include/lib/api",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "app",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "API::@c4d0bd4055548e8c5ec6",
+					"jsonFile" : "target-API-Debug-1ad197316a283dd926f7.json",
+					"name" : "API",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "API_autogen::@c4d0bd4055548e8c5ec6",
+					"jsonFile" : "target-API_autogen-Debug-2801425f6ecd59b3a343.json",
+					"name" : "API_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "API_autogen_timestamp_deps::@c4d0bd4055548e8c5ec6",
+					"jsonFile" : "target-API_autogen_timestamp_deps-Debug-dd1e1315af7c3bf328c8.json",
+					"name" : "API_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CONTROLLER::@f1d659a2c26c86f587dd",
+					"jsonFile" : "target-CONTROLLER-Debug-97dff5d7444afd3237c6.json",
+					"name" : "CONTROLLER",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CONTROLLER_autogen::@f1d659a2c26c86f587dd",
+					"jsonFile" : "target-CONTROLLER_autogen-Debug-9f57cd049a40e74de9fc.json",
+					"name" : "CONTROLLER_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CONTROLLER_autogen_timestamp_deps::@f1d659a2c26c86f587dd",
+					"jsonFile" : "target-CONTROLLER_autogen_timestamp_deps-Debug-1cdc8f2add04ef76b1c0.json",
+					"name" : "CONTROLLER_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "PAGES::@463472a927027c13f8d9",
+					"jsonFile" : "target-PAGES-Debug-cc841e9035d3352af1de.json",
+					"name" : "PAGES",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "PAGES_autogen::@463472a927027c13f8d9",
+					"jsonFile" : "target-PAGES_autogen-Debug-32eecca702774624b32e.json",
+					"name" : "PAGES_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "PAGES_autogen_timestamp_deps::@463472a927027c13f8d9",
+					"jsonFile" : "target-PAGES_autogen_timestamp_deps-Debug-5e62cd5b228709d2c4d6.json",
+					"name" : "PAGES_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SECRETS::@4cf9a09ae32d1e864627",
+					"jsonFile" : "target-SECRETS-Debug-1a375a361defc29620e8.json",
+					"name" : "SECRETS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SECRETS_autogen::@4cf9a09ae32d1e864627",
+					"jsonFile" : "target-SECRETS_autogen-Debug-0c306f495ecbc7aaf50e.json",
+					"name" : "SECRETS_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SECRETS_autogen_timestamp_deps::@4cf9a09ae32d1e864627",
+					"jsonFile" : "target-SECRETS_autogen_timestamp_deps-Debug-0142447920d866881585.json",
+					"name" : "SECRETS_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "UI::@b4de958cd2b8428aceca",
+					"jsonFile" : "target-UI-Debug-6c736d551cc779949c1c.json",
+					"name" : "UI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "UI_autogen::@b4de958cd2b8428aceca",
+					"jsonFile" : "target-UI_autogen-Debug-7e04b7c9667c1056594a.json",
+					"name" : "UI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "UI_autogen_timestamp_deps::@b4de958cd2b8428aceca",
+					"jsonFile" : "target-UI_autogen_timestamp_deps-Debug-cc8d4eec1316b06529ee.json",
+					"name" : "UI_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-app-Debug-a0dd1ceb819e797dc2c7.json",
+					"name" : "app",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/eliaslopes/REPOS/discord-clone/build",
+		"source" : "/Users/eliaslopes/REPOS/discord-clone/client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

@@ -1,0 +1,6 @@
+API_autogen/timestamp: \
+	/Users/eliaslopes/REPOS/discord-clone/client/include/lib/api/CMakeLists.txt \
+	/Users/eliaslopes/REPOS/discord-clone/client/include/lib/api/httplib.h \
+	/Users/eliaslopes/REPOS/discord-clone/client/include/lib/api/restapi.h \
+	/Users/eliaslopes/REPOS/discord-clone/client/src/lib/api/restapi.cpp \
+	/opt/homebrew/bin/cmake
