@@ -242,8 +242,8 @@ CMakeFiles/app.dir/clean:
 # Target rules for target include/lib/ui/CMakeFiles/UI.dir
 
 # All Build rule for target.
-include/lib/ui/CMakeFiles/UI.dir/all: include/lib/ui/CMakeFiles/UI_autogen_timestamp_deps.dir/all
 include/lib/ui/CMakeFiles/UI.dir/all: include/lib/ui/CMakeFiles/UI_autogen.dir/all
+include/lib/ui/CMakeFiles/UI.dir/all: include/lib/ui/CMakeFiles/UI_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/depend
 	$(MAKE) $(MAKESILENT) -f include/lib/ui/CMakeFiles/UI.dir/build.make include/lib/ui/CMakeFiles/UI.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/eliaslopes/REPOS/discord-clone/build/CMakeFiles --progress-num=17,18,19,20 "Built target UI"

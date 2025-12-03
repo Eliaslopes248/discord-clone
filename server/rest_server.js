@@ -1,49 +1,13 @@
 //===================================================================================
 // IMPORT MODULES
 //===================================================================================
-const express       = require("express");
-const bodyParser    = require("body-parser");
-const dotenv        = require("dotenv");
-const cors          = require("cors");
-const path          = require("path");
+const express           = require("express");
+const bodyParser        = require("body-parser");
+const cors              = require("cors");
+const { loadEnvFile }   = require("./utils/env");
 
-
-// select the correct env file
-let envFile = "./env/.env";
-if (process.env.NODE_ENV) 
-{
-    // Use system-level NODE_ENV to choose environment file
-    if (process.env.NODE_ENV === 'prod' || process.env.NODE_ENV === 'production') {
-        envFile = './env/.env.production';
-    } else if (process.env.NODE_ENV === 'dev' || process.env.NODE_ENV === 'development') {
-        envFile = './env/.env.developement';
-    }
-    // Load the environment file
-    const result = dotenv.config({ path: envFile });
-    if (result.error) {
-        console.warn("Warning: Could not load .env file:", result.error.message);
-    }
-} else 
-{
-    // No system NODE_ENV, load default .env first to get NODE_ENV
-    const result = dotenv.config({ path: envFile });
-    if (result.error) {
-        console.warn("Warning: Could not load .env file:", result.error.message);
-    }
-    
-    // Now choose environment file based on loaded NODE_ENV
-    if (process.env.NODE_ENV === 'prod' || process.env.NODE_ENV === 'production') {
-        envFile = './env/.env.production';
-    } else if (process.env.NODE_ENV === 'dev' || process.env.NODE_ENV === 'development') {
-        envFile = './env/.env.developement';
-    }
-    
-    // Reload with the correct environment file
-    const reloadResult = dotenv.config({ path: envFile, override: true });
-    if (reloadResult.error) {
-        console.warn("Warning: Could not reload .env file:", reloadResult.error.message);
-    }
-}
+// Load environment variables
+loadEnvFile();
 // create app instance
 const app           = express();
 const PORT          = process.env.REST_PORT || process.env.PORT || 8000;
@@ -102,18 +66,27 @@ app.use((err, req, res, next) => {
     next(err);
 });
 
+// General error handling middleware for async routes
+app.use((err, req, res, next) => {
+    console.error("Unhandled error:", err);
+    if (!res.headersSent) {
+        res.status(500).json({ 
+            error: 'Internal server error',
+            message: err.message 
+        });
+    }
+});
+
 // ====================================================
 // IMPORT ROUTES MODULES
 // ====================================================
-
-
+const authRoutes = require("./routes/auth");
 
 
 // ====================================================
 // ADD ROUTES
 // ====================================================
-
-
+app.use("/", authRoutes);
 
 // ====================================================
 // INIT ROUTE

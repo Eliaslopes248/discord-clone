@@ -1,0 +1,24 @@
+name: rest api  authentication sanity
+
+# set triggers
+on:
+    push:
+        branches: 
+            - main
+            - elopes-dev
+
+jobs:
+
+    # builds the docker container(s)
+    build-container:
+        # runs build on linux os image
+        runs-on: ubuntu-latest
+        steps:
+            # copy repository to the testing envirnoment
+            - uses: actions/checkout@v3
+            # debug prints to console
+            - name: Running build on ${{github.ref}} repository
+              run: echo "building docker container(s)"
+            
+      
+
