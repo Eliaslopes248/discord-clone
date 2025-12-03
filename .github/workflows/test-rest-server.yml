@@ -22,7 +22,7 @@ jobs:
 
             # test if container can be built
             - name: Building Application
-              run: docker-compose up --build
+              run: docker compose build
 
 
     # build the container and run all auth test tests/auth
@@ -41,10 +41,13 @@ jobs:
             - name: Running auth unit test
               run: echo "Running unit test suite for auth system"
 
-            # build containers and run test for auth
-            - name: Building Application
-              run: docker-compose up --build npm test test/auth
-              working-directory: ./server
+            # build containers and run tests
+            - name: Building and Running Tests
+              run: docker compose run --rm backend npm test tests/auth
+            
+            - name: Cleanup
+              if: always()
+              run: docker compose down
 
             
       
