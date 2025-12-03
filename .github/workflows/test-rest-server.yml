@@ -1,4 +1,4 @@
-name: rest api  authentication sanity
+name: REST API Sanity
 
 # set triggers
 on:
@@ -10,15 +10,42 @@ on:
 jobs:
 
     # builds the docker container(s)
-    build-container:
+    build-docker:
         # runs build on linux os image
         runs-on: ubuntu-latest
         steps:
             # copy repository to the testing envirnoment
             - uses: actions/checkout@v3
             # debug prints to console
-            - name: Running build on ${{github.ref}} repository
+            - name: Running build on ${{github.repository}} repository
               run: echo "building docker container(s)"
+
+            # test if container can be built
+            - name: Building Application
+              run: docker-compose up --build
+
+
+    # build the container and run all auth test tests/auth
+    test-auth-service:
+        runs-on: ubuntu-latest
+        steps:
+            # build container
+            - name: Copy project to environment
+              uses: actions/checkout@v3
+            
+            # debug prints to console
+            - name: Running build on ${{github.repository}} repository
+              run: echo "building docker container(s)"
+
+            # debug prints to console
+            - name: Running auth unit test
+              run: echo "Running unit test suite for auth system"
+
+            # build containers and run test for auth
+            - name: Building Application
+              run: docker-compose up --build npm test test/auth
+              working-directory: ./server
+
             
       
 
