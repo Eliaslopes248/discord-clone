@@ -32,17 +32,13 @@ jobs:
             # build container
             - name: Copy project to environment
               uses: actions/checkout@v3
-            
-            # debug prints to console
-            - name: Running build on ${{github.repository}} repository
-              run: echo "building docker container(s)"
 
             # debug prints to console
             - name: Running auth unit test
               run: echo "Running unit test suite for auth system"
 
             # build containers and run tests
-            - name: Building and Running Tests
+            - name: Building and Running Tests on ${{github.repository}} repository
               run: docker compose run --rm backend npm test tests/auth
             
             - name: Cleanup

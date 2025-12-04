@@ -7,6 +7,7 @@ const express                 = require("express");
 const router                  = express.Router();
 const { MySQLConnector }      = require("../utils/sql_wrapper.js");
 const { randomUUID }          = require("crypto");
+const bcrypt                 = require("bcrypt")
 
 
 // create mysql connection client (null for now to save memory)
@@ -50,6 +51,46 @@ async function userIsUnique(username=null)
     return result.length == 0; 
 }
 
+// creates a hashed password for security
+async function hashPassword(password)
+{
+    if (!password) return null;
+
+    const saltRounds = 10;
+    const hashed = await bcrypt.hash(plainPassword, saltRounds);
+    return hashed;
+}
+
+// compares hashed password with the plain one
+async function verifyPassword(plainPassword, hashedPassword) {
+    const match = await bcrypt.compare(plainPassword, hashedPassword);
+    return match;
+}
+
+// ensures username is acceptable
+
+
+// ensures password is acceptable
+function acceptablePassword(password)
+{
+    if (!password || password.length < 8) return false;
+
+    // tests for different characters
+    const number_test = /[0-9]/;
+    const upper_case_test = /[A-Z]/;
+    const lower_case_test = /[a-z]/;
+    const special_char_test = /[!@#$%&*]/;
+
+    // makes sure all tests pass
+    return (
+        password && 
+        upper_case_test.test(password) &&
+        lower_case_test.test(password) &&
+        number_test.test(password)     &&
+        special_char_test.test(password)
+    );
+}
+
 
 async function attemptRegister(req, res, next)
 {
@@ -61,7 +102,7 @@ async function attemptRegister(req, res, next)
         if (!credentials || !credentials.first_name || !credentials.last_name ||
             !credentials.username || !credentials.password
         ){
-            return res.json (RC_RESPONSE(RC_CODES.BAD_REQUEST));
+            return res.json(RC_RESPONSE(RC_CODES.BAD_REQUEST));
         }
 
         // check if user is unique (only check username)
@@ -72,6 +113,16 @@ async function attemptRegister(req, res, next)
             // user already exists -> reject request
             return res.json(RC_RESPONSE(RC_CODES.BAD_REQUEST));
         };
+
+        // make sure password is correct
+        if (!acceptablePassword(credentials.password)){
+            console.error("Password is not acceptable");
+            return res.json(RC_RESPONSE(RC_CODES.BAD_REQUEST));
+        }
+
+        // hash the password
+        const hashed_password = await hashPassword(credentials.password);
+
         
         // add the user to the user table
         const con = await getSqlClient();
@@ -85,7 +136,7 @@ async function attemptRegister(req, res, next)
                 credentials.first_name, 
                 credentials.last_name, 
                 credentials.username, 
-                credentials.password
+                hashed_password
             ]]
         );
 
