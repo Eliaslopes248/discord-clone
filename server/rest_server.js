@@ -117,9 +117,12 @@ app.post("/test/post", (req, res)=>{
 // ====================================================
 // SERVER LISTENING
 // ====================================================
-app.listen(PORT, ()=>{
+const server = app.listen(PORT, ()=>{
     console.log("--------------------------\n");
     console.log("REST API LISTENING");
     console.log("PORT:", PORT);
     console.log("\n--------------------------");
 });
+
+// Export app and server for testing
+module.exports = { app, server };

@@ -57,7 +57,7 @@ async function hashPassword(password)
     if (!password) return null;
 
     const saltRounds = 10;
-    const hashed = await bcrypt.hash(plainPassword, saltRounds);
+    const hashed = await bcrypt.hash(password, saltRounds);
     return hashed;
 }
 
@@ -105,6 +105,12 @@ async function attemptRegister(req, res, next)
             return res.json(RC_RESPONSE(RC_CODES.BAD_REQUEST));
         }
 
+        // make sure password is correct (check this first, no DB needed)
+        if (!acceptablePassword(credentials.password)){
+            console.error("Password is not acceptable");
+            return res.json(RC_RESPONSE(RC_CODES.BAD_REQUEST));
+        }
+
         // check if user is unique (only check username)
         const unique = await userIsUnique(credentials.username);
 
@@ -113,12 +119,6 @@ async function attemptRegister(req, res, next)
             // user already exists -> reject request
             return res.json(RC_RESPONSE(RC_CODES.BAD_REQUEST));
         };
-
-        // make sure password is correct
-        if (!acceptablePassword(credentials.password)){
-            console.error("Password is not acceptable");
-            return res.json(RC_RESPONSE(RC_CODES.BAD_REQUEST));
-        }
 
         // hash the password
         const hashed_password = await hashPassword(credentials.password);

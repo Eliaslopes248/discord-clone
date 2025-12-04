@@ -9,7 +9,7 @@ async function registerUser(credentials)
     const response = await fetch("http://localhost:8000/auth/register", {
         method: "POST",
         headers: {"content-type" : "application/json"},
-        body: { credentials: credentials }
+        body: JSON.stringify({ credentials: credentials })
     });
 
     // parse response

@@ -151,6 +151,10 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "setupFilesAfterEnv": ["<rootDir>/tests/setup.js"],
+    "testTimeout": 10000
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
