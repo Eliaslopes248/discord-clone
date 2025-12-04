@@ -25,7 +25,7 @@ async function registerUser(credentials)
 
 describe("Testing authentication endpoints", ()=>{
     // give weak password
-    it("Attempt to register with weak password", ()=>{
+    it("Attempt to register with weak password", async ()=>{
 
         const credentials = {
             first_name: "unit test name",
@@ -34,6 +34,6 @@ describe("Testing authentication endpoints", ()=>{
             password:   "unit_password123",
         };
 
-        expect(registerUser(credentials)).toBe(400);
+        expect(await registerUser(credentials)).toBe(400);
     });
 });
