@@ -6,7 +6,7 @@
 async function registerUser(credentials)
 {
     // make request to server 
-    const response = fetch("path/to/end/point", {
+    const response = await fetch("http://localhost:8000/auth/register", {
         method: "POST",
         headers: {"content-type" : "application/json"},
         body: { credentials: credentials }
